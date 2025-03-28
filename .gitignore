@@ -1,0 +1,17 @@
+# Ignorar archivos de configuración y entornos virtuales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Ignorar logs y datos temporales
+*.log
+.DS_Store
+
+# Ignorar configuraciones de Streamlit
+.streamlit/
+
+# Ignorar dependencias generadas
+*.egg-info/
